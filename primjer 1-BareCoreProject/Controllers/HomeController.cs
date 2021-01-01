@@ -9,6 +9,10 @@ namespace BareCoreProject.Controllers
 
         [HttpGet("/")]  // "/" ovo je naš url (u ovom slučaju nekakav root URL) -> tu smo direktno vratili return Ok("");
                         // svaki url je jedna dodirna točka (endpoint) naše aplikacije
+
+                        // routanje se može raditi na ovakav način - dakle da koristimo atribute - ispred svake metode kontrolera
+                        // to je taj http get ili post url. Mi ga nećemo koristiti, nego alternativno routes.MapRoute routanje
+        
         public IActionResult Index()
         {
             // Ok je metoda koja generira http 200 - status uspješno sam odgovorio na zahtjev

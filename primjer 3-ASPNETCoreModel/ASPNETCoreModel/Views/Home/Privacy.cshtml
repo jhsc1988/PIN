@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Politika privatnosti";
+    string s = "Dobar dan";
+
+    // ViewData je zgodan za prebacivanje podataka iz kontrolera u view
+    // ViewData je strongly typed - on je tipa objekt - može u sebi spremiti bilo što
+}
+<h1>@ViewData["Title"]</h1> <!-- ugrađeni kontenjer - key-value vrijendnost, može primiti bilo koji tip podatka -->
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<p>@s</p>
+<p>ViewData["poruka"] @ViewData["poruka"]</p>
+<p>ViewBag.poruka @ViewBag.poruka</p>
+
+@{
+    int b = (int)ViewData["broj"] + 1; // ne moram više ovako, nego:
+    int a = ViewBag.Broj + 1;
+}
+<p>(ViewData)Broj uvećan za 1 je: @b</p>
+<p>(ViewBag)Broj uvećan za 1 je: @a</p>

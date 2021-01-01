@@ -28,6 +28,18 @@ namespace MVCCoreApp
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+
+
+
+
+            var names = new List<string>();
+            foreach (var item in collection)
+            {
+
+            }
+
+
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
