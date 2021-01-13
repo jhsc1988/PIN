@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    // Layout = "_NemaMe";
+    ViewData["broj"] = 1.2;
+}
+
+<div class="text-center">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.broj</h2>
+    <h2>@ViewData["broj"]</h2> <!--ovo je isto kao i <h2>@ViewBag.broj</h2> -->
+
+    <h2 class="display-4">Welcome</h2>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

@@ -1,0 +1,34 @@
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\bin\Debug\netcoreapp3.1\PIN-lab 5.exe
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\bin\Debug\netcoreapp3.1\PIN-lab 5.deps.json
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\bin\Debug\netcoreapp3.1\PIN-lab 5.runtimeconfig.json
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\bin\Debug\netcoreapp3.1\PIN-lab 5.runtimeconfig.dev.json
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\bin\Debug\netcoreapp3.1\PIN-lab 5.dll
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\bin\Debug\netcoreapp3.1\PIN-lab 5.pdb
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.csprojAssemblyReference.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.AssemblyInfoInputs.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.AssemblyInfo.cs
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.csproj.CoreCompileInputs.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\staticwebassets\PIN-lab 5.StaticWebAssets.Manifest.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\staticwebassets\PIN-lab 5.StaticWebAssets.xml
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\scopedcss\bundle\PIN-lab 5.styles.css
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.RazorTargetAssemblyInfo.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.dll
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.pdb
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.genruntimeconfig.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\bin\Debug\netcoreapp3.1\PIN-lab 5.Views.dll
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\bin\Debug\netcoreapp3.1\PIN-lab 5.Views.pdb
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.RazorAssemblyInfo.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.RazorAssemblyInfo.cs
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.TagHelpers.input.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.TagHelpers.output.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.RazorCoreGenerate.cache
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.RazorTargetAssemblyInfo.cs
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.Views.pdb
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\PIN-lab 5.csproj.CopyComplete
+C:\Users\jhsc1\OneDrive\Radna površina\PIN lab 5\PIN-lab 5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Vjezba4.cshtml.g.cs

@@ -1,0 +1,11 @@
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\bin\lab1.dll.config
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\bin\lab1.dll
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\bin\lab1.pdb
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\bin\lab1.xml
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\obj\Release\lab1.vbprojAssemblyReference.cache
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\obj\Release\lab1.Resources.resources
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\obj\Release\lab1.vbproj.GenerateResource.cache
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\obj\Release\lab1.vbproj.CoreCompileInputs.cache
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\obj\Release\lab1.dll
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\obj\Release\lab1.xml
+C:\Users\jhsc1\OneDrive\dokumenti\dokumenti\edu\VSiTE\PIN\lab\lab1\obj\Release\lab1.pdb
