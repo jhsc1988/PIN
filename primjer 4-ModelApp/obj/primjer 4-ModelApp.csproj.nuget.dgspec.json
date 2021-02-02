@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhsc1\\Radna površina\\github\\PIN\\primjer 4-ModelApp\\primjer 4-ModelApp.csproj": {}
+    "C:\\Users\\jhsc1\\Radna površina\\офис\\развитие\\github\\PIN\\primjer 4-ModelApp\\primjer 4-ModelApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhsc1\\Radna površina\\github\\PIN\\primjer 4-ModelApp\\primjer 4-ModelApp.csproj": {
+    "C:\\Users\\jhsc1\\Radna površina\\офис\\развитие\\github\\PIN\\primjer 4-ModelApp\\primjer 4-ModelApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhsc1\\Radna površina\\github\\PIN\\primjer 4-ModelApp\\primjer 4-ModelApp.csproj",
+        "projectUniqueName": "C:\\Users\\jhsc1\\Radna površina\\офис\\развитие\\github\\PIN\\primjer 4-ModelApp\\primjer 4-ModelApp.csproj",
         "projectName": "primjer 4-ModelApp",
-        "projectPath": "C:\\Users\\jhsc1\\Radna površina\\github\\PIN\\primjer 4-ModelApp\\primjer 4-ModelApp.csproj",
+        "projectPath": "C:\\Users\\jhsc1\\Radna površina\\офис\\развитие\\github\\PIN\\primjer 4-ModelApp\\primjer 4-ModelApp.csproj",
         "packagesPath": "C:\\Users\\jhsc1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhsc1\\Radna površina\\github\\PIN\\primjer 4-ModelApp\\obj\\",
+        "outputPath": "C:\\Users\\jhsc1\\Radna površina\\офис\\развитие\\github\\PIN\\primjer 4-ModelApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jhsc1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
