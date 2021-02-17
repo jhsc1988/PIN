@@ -20,9 +20,19 @@ namespace knjiznica.Controllers
         }
 
         // GET: Knjige
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string search)
         {
-            return View(await _context.Knjige.ToListAsync());
+            if (!String.IsNullOrEmpty(search))
+            {
+                ViewBag.Search = search;
+                var knjige = from Knjiga in _context.Knjiga
+                             select Knjiga;
+
+                knjige = knjige.Where(Knjiga => Knjiga.Naslov.Contains(search));
+                return View(knjige.ToList());
+
+            }
+            return View(await _context.Knjiga.ToListAsync());
         }
 
         // GET: Knjige/Details/5
@@ -33,14 +43,14 @@ namespace knjiznica.Controllers
                 return NotFound();
             }
 
-            var knjige = await _context.Knjige
+            var knjiga = await _context.Knjiga
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (knjige == null)
+            if (knjiga == null)
             {
                 return NotFound();
             }
 
-            return View(knjige);
+            return View(knjiga);
         }
 
         // GET: Knjige/Create
@@ -54,15 +64,15 @@ namespace knjiznica.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,naslov,Izdavač,ISBN,datumIzdavanja")] Knjige knjige)
+        public async Task<IActionResult> Create([Bind("Id,Naslov,Autor,Izdavac,ISBN,DatumIzdavanja")] Knjiga knjiga)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(knjige);
+                _context.Add(knjiga);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(knjige);
+            return View(knjiga);
         }
 
         // GET: Knjige/Edit/5
@@ -73,12 +83,12 @@ namespace knjiznica.Controllers
                 return NotFound();
             }
 
-            var knjige = await _context.Knjige.FindAsync(id);
-            if (knjige == null)
+            var knjiga = await _context.Knjiga.FindAsync(id);
+            if (knjiga == null)
             {
                 return NotFound();
             }
-            return View(knjige);
+            return View(knjiga);
         }
 
         // POST: Knjige/Edit/5
@@ -86,9 +96,9 @@ namespace knjiznica.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,naslov,Izdavač,ISBN,datumIzdavanja")] Knjige knjige)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Naslov,Autor,Izdavac,ISBN,DatumIzdavanja")] Knjiga knjiga)
         {
-            if (id != knjige.Id)
+            if (id != knjiga.Id)
             {
                 return NotFound();
             }
@@ -97,12 +107,12 @@ namespace knjiznica.Controllers
             {
                 try
                 {
-                    _context.Update(knjige);
+                    _context.Update(knjiga);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!KnjigeExists(knjige.Id))
+                    if (!KnjigaExists(knjiga.Id))
                     {
                         return NotFound();
                     }
@@ -113,7 +123,7 @@ namespace knjiznica.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(knjige);
+            return View(knjiga);
         }
 
         // GET: Knjige/Delete/5
@@ -124,14 +134,14 @@ namespace knjiznica.Controllers
                 return NotFound();
             }
 
-            var knjige = await _context.Knjige
+            var knjiga = await _context.Knjiga
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (knjige == null)
+            if (knjiga == null)
             {
                 return NotFound();
             }
 
-            return View(knjige);
+            return View(knjiga);
         }
 
         // POST: Knjige/Delete/5
@@ -139,15 +149,15 @@ namespace knjiznica.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var knjige = await _context.Knjige.FindAsync(id);
-            _context.Knjige.Remove(knjige);
+            var knjiga = await _context.Knjiga.FindAsync(id);
+            _context.Knjiga.Remove(knjiga);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool KnjigeExists(int id)
+        private bool KnjigaExists(int id)
         {
-            return _context.Knjige.Any(e => e.Id == id);
+            return _context.Knjiga.Any(e => e.Id == id);
         }
     }
 }

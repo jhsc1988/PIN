@@ -187,3 +187,8 @@ C:\Users\jhsc1\Radna površina\workspace\github\PIN\knjiznica\bin\Debug\netcorea
 C:\Users\jhsc1\Radna površina\workspace\github\PIN\knjiznica\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\jhsc1\Radna površina\workspace\github\PIN\knjiznica\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\jhsc1\Radna površina\workspace\github\PIN\knjiznica\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\jhsc1\Radna površina\workspace\github\PIN\knjiznica\obj\Debug\netcoreapp3.1\Razor\Views\Knjige\Create.cshtml.g.cs
+C:\Users\jhsc1\Radna površina\workspace\github\PIN\knjiznica\obj\Debug\netcoreapp3.1\Razor\Views\Knjige\Delete.cshtml.g.cs
+C:\Users\jhsc1\Radna površina\workspace\github\PIN\knjiznica\obj\Debug\netcoreapp3.1\Razor\Views\Knjige\Details.cshtml.g.cs
+C:\Users\jhsc1\Radna površina\workspace\github\PIN\knjiznica\obj\Debug\netcoreapp3.1\Razor\Views\Knjige\Edit.cshtml.g.cs
+C:\Users\jhsc1\Radna površina\workspace\github\PIN\knjiznica\obj\Debug\netcoreapp3.1\Razor\Views\Knjige\Index.cshtml.g.cs

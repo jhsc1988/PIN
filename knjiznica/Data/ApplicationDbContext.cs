@@ -13,6 +13,6 @@ namespace knjiznica.Data
             : base(options)
         {
         }
-        public DbSet<knjiznica.Models.Knjige> Knjige { get; set; }
+        public DbSet<knjiznica.Models.Knjiga> Knjiga { get; set; }
     }
 }
